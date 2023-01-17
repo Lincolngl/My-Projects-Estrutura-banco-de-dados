@@ -12,6 +12,6 @@
     $stmt-> bindParam (':nome',$nome); 
     $stmt-> bindParam (':email',$email); 
     $stmt-> bindParam (':dataNascimento',$dataNascimento); 
-    $stmt-> bindParam (':enha',$senha); 
+    $stmt-> bindParam (':senha',$senha); 
     $stmt-> execute();
 
